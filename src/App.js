@@ -1,5 +1,5 @@
 import React from 'react';
-import '../src/scss/main.scss'; 
+import '../src/scss/main.scss';
 import Header from './components/Header';
 import CVResumeSection from './components/CVResumeSection';
 import SkillsSection from './components/SkillsSection';
