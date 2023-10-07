@@ -1,0 +1,27 @@
+.header {
+    .conatiner{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    h1 {
+        font-weight: 400;
+        font-size: 60px;
+    } 
+
+    img {
+        border-radius: 5px;
+        width: 235px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .profile-image {
+        width: 135px;
+        height: 170px;
+    }
+   }
+  

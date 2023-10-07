@@ -1,0 +1,42 @@
+// Import Google Fonts
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap');
+
+
+// Base styles for the body
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+  color: $text-color;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: $text-color;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+// Add more base styles here if needed
