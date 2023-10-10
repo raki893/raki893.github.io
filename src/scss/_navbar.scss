@@ -6,7 +6,6 @@
     left: 0;
     width: 100%;
     background-color: #000;
-    transition: background-color 0.3s ease-in-out;
   }
   
   /* Container for logo and menu items */
@@ -37,18 +36,19 @@
   .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     margin: 0;
     padding: 0;
   }
   
   .nav-links li {
     font-size: 1rem;
+    font-weight: bold;
   }
   
   .nav-links a {
     text-decoration: none;
-    color: white; /* Change to your preferred color */
+    color: rgb(218, 217, 217); /* Change to your preferred color */
     transition: color 0.3s ease-in-out;
   }
   
