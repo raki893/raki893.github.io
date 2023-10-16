@@ -62,15 +62,6 @@
   }
 }
 
-/* Hamburger icon animation */
-.menu-icon .fa-bars::before {
-  content: "\f0c9"; /* Hamburger icon */
-}
-
-.menu-icon .fa-times::before {
-  content: "\f00d"; /* Close icon */
-}
-
 /* Media query for mobile view */
 @media (max-width: 768px) {
   .menu-icon {
