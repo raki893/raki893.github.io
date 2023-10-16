@@ -2,6 +2,7 @@ import React from 'react';
 import '../src/scss/main.scss';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
+import About from './components/About';
 import CVResumeSection from './components/CVResumeSection';
 import SkillsSection from './components/SkillsSection';
 import ProjectsSection from './components/ProjectsSection';
@@ -15,12 +16,13 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
+      <About />
       <SkillsSection />
       <Experience />
       <ProjectsSection />
       <CVResumeSection />
       <ContactSection />
-      {/* <Wave /> */}
+      
       <Footer />
     </div>
   );
