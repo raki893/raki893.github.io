@@ -8,7 +8,7 @@ import ProjectsSection from './components/ProjectsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import Experience from './components/experience';
-import Wave from './assets/Wave';
+
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <ProjectsSection />
       <CVResumeSection />
       <ContactSection />
-      <Wave />
+      {/* <Wave /> */}
       <Footer />
     </div>
   );

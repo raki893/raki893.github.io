@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Hamburger from 'hamburger-react'; // Import Hamburger component
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,9 +14,11 @@ function Navbar() {
         <div className="logo">Portfolio</div>
 
         <div className="menu-icon" onClick={toggleMenu}>
-          <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'}`}></i>
+          <Hamburger // Use Hamburger component
+            toggled={isOpen}
+            toggle={setIsOpen}
+          />
         </div>
-
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
           <li>
             <a href="#home">Home</a>

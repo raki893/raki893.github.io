@@ -3,12 +3,13 @@
 @import url(//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap);
 
 
-
+.App {
+  margin: 0 auto;
+  max-width: 1280px;
+}
 
 body {
-  margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
 }
 
 h1, h2, h3 {
@@ -36,4 +37,3 @@ ul {
   list-style-type: none;
 }
 
-// Add more base styles here if needed
