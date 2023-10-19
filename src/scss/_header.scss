@@ -31,13 +31,75 @@
       font-weight: 400;
       margin-top: 2px;
       color: $theme-color;
+      font-size: 35px;
     }
 
   
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 599px) {
       .profile-image-container {
         width: 135px;
         height: 135px;
+      }
+
+      h1 {
+        font-weight: 600;
+        font-size: 23px;
+        margin: 0;
+      }
+
+      h3 {
+        font-size: 15px;
+      }
+    }
+
+    @media screen and (min-width: 600px) {
+      .profile-image-container {
+        width: 150px;
+        height: 155px;
+      }
+
+      h1 {
+        font-weight: 600;
+        font-size: 28px;
+        margin: 0;
+      }
+
+      h3 {
+        font-size: 19px;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      .profile-image-container {
+        width: 170px;
+        height: 175px;
+      }
+    
+      h1 {
+        font-weight: 600;
+        font-size: 45px;
+        margin: 0;
+      }
+    
+      h3 {
+        font-size: 26px;
+      }
+    }
+
+    @media only screen and (min-width: 992px) {
+      .profile-image-container {
+        width: 200px;
+        height: 205px;
+      }
+    
+      h1 {
+        font-weight: 600;
+        font-size: 50px;
+        margin: 0;
+      }
+    
+      h3 {
+        font-size: 30px;
       }
     }
   }
