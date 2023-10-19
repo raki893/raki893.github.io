@@ -8,7 +8,6 @@ import SkillsSection from './components/SkillsSection';
 import ProjectsSection from './components/ProjectsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
-import Experience from './components/experience';
 
 
 function App() {
@@ -18,11 +17,9 @@ function App() {
       <Header />
       <About />
       <SkillsSection />
-      <Experience />
       <ProjectsSection />
       <CVResumeSection />
       <ContactSection />
-      
       <Footer />
     </div>
   );
