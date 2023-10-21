@@ -1,11 +1,10 @@
 .about_text {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center; /* Center vertically */
-}
+  display: flex; // Use Flexbox for inner layout
+  flex-direction: column; // Arrange inner elements in a column (vertical)
 
-.txt-1 {
-    box-sizing: border-box;
-    
+  .txt-1,
+  .txt-2 {
+    flex: 1; // Distribute available space equally between txt-1 and txt-2
+    padding: 20px;
+  }
 }
