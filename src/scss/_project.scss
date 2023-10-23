@@ -1,0 +1,79 @@
+@import url("../images/project_screenshot/weather.png");
+@import url("../images/project_screenshot/old.png");
+
+
+.projects {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card {
+    margin: 20px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    background-position: center;
+    background-size: cover;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    .content {
+      padding: 20px;
+
+      .title {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+
+      .copy {
+        color: #666;
+        margin-bottom: 10px;
+      }
+
+      .btn {
+        background-color: #007acc;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: #005eae;
+        }
+      }
+    }
+  }
+
+  // Assign background images to each card
+  .card:nth-child(1) {
+    background-image: url("../images/project_screenshot/weather.png");
+  }
+
+  .card:nth-child(2) {
+    background-image: url("../images/project_screenshot/old.png");
+  }
+
+//   .card:nth-child(3) {
+//     background-image: url("images/desert-destinations.jpg");
+//   }
+
+//   .card:nth-child(4) {
+//     background-image: url("images/explore-the-galaxy.jpg");
+//   }
+}
