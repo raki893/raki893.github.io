@@ -1,5 +1,6 @@
 import React from 'react';
 import '../src/scss/main.scss';
+
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import About from './components/About';
