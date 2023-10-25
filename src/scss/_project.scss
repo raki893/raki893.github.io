@@ -1,10 +1,9 @@
-@import url("../images/project_screenshot/weather.png");
-@import url("../images/project_screenshot/old.png");
+// @import url("../images/project_screenshot/weather.png");
+// @import url("../images/project_screenshot/old.png");
 
 
 .projects {
   text-align: center;
-  background-color: #f0f0f0;
   padding: 20px;
 
   h2 {
@@ -60,20 +59,20 @@
     }
   }
 
-  // Assign background images to each card
-  .card:nth-child(1) {
-    background-image: url("../images/project_screenshot/weather.png");
-  }
-
-  .card:nth-child(2) {
-    background-image: url("../images/project_screenshot/old.png");
-  }
-
-//   .card:nth-child(3) {
-//     background-image: url("images/desert-destinations.jpg");
+//   // Assign background images to each card
+//   .card:nth-child(1) {
+//     background-image: url("../images/project_screenshot/weather.png");
 //   }
 
-//   .card:nth-child(4) {
-//     background-image: url("images/explore-the-galaxy.jpg");
+//   .card:nth-child(2) {
+//     background-image: url("../images/project_screenshot/old.png");
 //   }
+
+// //   .card:nth-child(3) {
+// //     background-image: url("images/desert-destinations.jpg");
+// //   }
+
+// //   .card:nth-child(4) {
+// //     background-image: url("images/explore-the-galaxy.jpg");
+// //   }
 }

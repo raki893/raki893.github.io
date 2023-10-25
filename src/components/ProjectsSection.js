@@ -18,9 +18,9 @@ const ProjectsSection = () => {
       <h2>Projects</h2>
       <main className="page-content">
         <ProjectCard
-          title="Mountain View"
-          description="Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains"
-          buttonLabel="View Trips"
+          title="Weather App"
+          description="Weather forecast app with the forecast of seven days"
+          buttonLabel="Live demo"
         />
         <ProjectCard
           title="To The Beach"
