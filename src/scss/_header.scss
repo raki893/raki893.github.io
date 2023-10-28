@@ -34,6 +34,23 @@
       font-size: 35px;
     }
 
+    .cv-resume {
+      text-align: center;
+      .btn {
+        background: $theme-color;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        display: inline-block;
+        font-weight: 700;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+        padding: 5px 15px 5px 15px;
+        margin-left: 15px;
+        font-size: 12px;
+      }
+    
+    }
   
     @media screen and (max-width: 599px) {
       .profile-image-container {
@@ -50,6 +67,19 @@
       h3 {
         font-size: 15px;
       }
+    
+      .cv-resume {
+        .btn {
+          font-weight: 300;
+          font-weight: 700;
+          font-size: 10px;
+        }
+        .btn:last-child {
+          margin-left: 5px;
+        }
+      }
+      
+
     }
 
     @media screen and (min-width: 600px) {

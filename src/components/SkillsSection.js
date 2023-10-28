@@ -3,7 +3,7 @@ import React from 'react';
 
 const SkillsSection = () => {
   return (
-    <section>
+    <div className='skill'>
       <h2>Skills</h2>
       <div className='skill-icons'>
         <div className="svg_item">
@@ -325,7 +325,7 @@ const SkillsSection = () => {
       </div>
 
 
-    </section>
+    </div>
   );
 }
 

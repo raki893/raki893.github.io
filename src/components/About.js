@@ -2,15 +2,15 @@ import React from "react";
 
 const About = () => {
     return (
-        <div className="About">
-            <h1>About</h1>
+        <div className="about">
+            <h1>About Me</h1>
             <div className="about_text">
                 <div className="txt-description">
                     <p>I am Md Rakibul Islam.
                         I studied B.Sc. in Computer Science & Engineering
                         from National University, Bangladesh. Currently studying M.Sc. in Web & Data Science at the
                         university of Koblenz, Germany. Through my experience, I have
-                        developed websites and web applications as a freelancer. As a front-end developer with two and a half years of experience. 
+                        developed websites and web applications as a freelancer. As a front-end developer with two and a half years of experience.
                     </p>
                 </div>
                 <div className="txt-description">
@@ -19,6 +19,7 @@ const About = () => {
                         Frameworks like React, Bootstrap.</p>
                 </div>
             </div>
+            
         </div>
     );
 };
