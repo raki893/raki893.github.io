@@ -1,10 +1,22 @@
-.about_text {
-  display: flex; // Use Flexbox for inner layout
-  flex-direction: column; // Arrange inner elements in a column (vertical)
+.About {
+  background-color: $background-color;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
-  .txt-1,
-  .txt-2 {
-    flex: 1; // Distribute available space equally between txt-1 and txt-2
-    padding: 20px;
+.about_text {
+  display: flex;
+	align-items:center;
+	justify-content:center;
+
+p {
+  margin: 15px;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+  .about_text {
+    display: flex;
+    flex-direction: column;
   }
 }

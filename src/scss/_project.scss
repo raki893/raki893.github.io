@@ -3,8 +3,9 @@
 
 
 .projects {
-  text-align: center;
-  padding: 20px;
+  
+  background-color: $background-color;
+  box-shadow: $background-box;
 
   h2 {
     font-size: 2rem;

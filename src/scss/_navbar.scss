@@ -1,5 +1,8 @@
 /* Navbar container */
-  
+.navbar {
+  background-color: $background-color;
+  box-shadow: $background-box;
+}  
 /* Container for logo and menu items */
 .nav_container {
   display: flex;
