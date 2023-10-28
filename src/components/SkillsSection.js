@@ -4,7 +4,8 @@ import React from 'react';
 const SkillsSection = () => {
   return (
     <div className='skill'>
-      <h2>Skills</h2>
+      <h3>Skills</h3>
+      <h5>Technologies I Have Been Using</h5>
       <div className='skill-icons'>
         <div className="svg_item">
           <svg

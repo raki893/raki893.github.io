@@ -3,7 +3,7 @@ import React from 'react';
 const ContactSection = () => {
   return (
     <div className='contact'>
-      <h2>Contact</h2>
+      <h3>Contact</h3>
       <div className='contact-section'>
         <a className='contact-links' href="https://www.linkedin.com/in/rakibulislam893/" target="_blank" rel="noopener noreferrer">
           <div className='contact-svg'>
