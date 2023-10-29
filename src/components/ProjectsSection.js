@@ -19,7 +19,25 @@ const ProjectsSection = () => {
           liveDemoLink="https://raki893.github.io/weather-react-app/"
           githubLink="https://github.com/raki893/weather-react-app"
         />
-        {/* Add more ProjectCard components here for other projects */}
+        <ProjectCard
+          title="Sample Folio"
+          image={require('../images/project_screenshot/sample-folio.png')}
+          liveDemoLink="https://raki893.github.io/i-n-c-i-d-i-d-u-n-t-b-o-r-e/"
+          githubLink="https://github.com/raki893/i-n-c-i-d-i-d-u-n-t-b-o-r-e"
+        />
+        <ProjectCard
+          title="Charitable Organization"
+          image={require('../images/project_screenshot/Charity.png')}
+          liveDemoLink="https://raki893.github.io/charitable-organization/"
+          githubLink="https://github.com/raki893/charitable-organization/"
+        />
+        <ProjectCard
+          title="Fashion Hut"
+          image={require('../images/project_screenshot/fashion.png')}
+          liveDemoLink="https://raki893.github.io/fashion-hut/"
+          githubLink="https://github.com/raki893/fashion-hut/"
+        />
+        
       </div>
     </div>
   );

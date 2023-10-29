@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../images/pn.jpg';
+import profileImage from '../images/pn.png';
 
 
 const Header = () => {
