@@ -62,8 +62,6 @@ const ContactSection = () => {
             <p style={{ color: "#4460A0" }}>Facebook</p>
           </div>
         </a>
-
-
       </div>
     </div>
   );
