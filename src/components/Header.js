@@ -14,7 +14,7 @@ const Header = () => {
           <h3>Frontend Developer</h3>
           <div className="cv-resume">
                 <a className="btn-cv-resume" href="https://drive.google.com/file/d/1AhgJHdR3ll3sesgppUm9eBmZginvndMX/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
-                <a className="btn-cv-resume" href="https://drive.google.com/file/d/1p8f52A1KwV8n9v9umSf-xMnZNH0jVd2q/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a className="btn-cv-resume" href="https://drive.google.com/file/d/1O640r3fxKboFLRHTd3eytGMME4TtpVZp/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
         </div>
       </div>
