@@ -26,12 +26,39 @@
       font-size: 60px;
       margin: 0;
     }
-  
+    
+    .name-title .header-span {
+      color: $theme-color;
+    }
+
     h3 {
       font-weight: 400;
       margin-top: 2px;
       color: $theme-color;
       font-size: 35px;
+    }
+
+    .name-title h1 {
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid $theme-color; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .10em; /* Adjust as needed */
+      animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    }
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: $theme-color; }
     }
 
     .cv-resume {
@@ -61,7 +88,7 @@
     @media screen and (max-width: 599px) {
       .profile-image-container {
         width: 135px;
-        height: 135px;
+        height: 140px;
       }
 
       h1 {

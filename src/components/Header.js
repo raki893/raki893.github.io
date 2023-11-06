@@ -10,7 +10,7 @@ const Header = () => {
           <img src={profileImage} alt="Profile" className="profile-image" />
         </div>
         <div className="name-title">
-          <h1>Md Rakibul Islam</h1>
+          <h1>Hi, I am Rakibul Islam</h1>
           <h3>Frontend Developer</h3>
           <div className="cv-resume">
                 <a className="btn-cv-resume" href="https://drive.google.com/file/d/1AhgJHdR3ll3sesgppUm9eBmZginvndMX/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
