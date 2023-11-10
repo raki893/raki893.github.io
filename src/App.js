@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      <SkillsSection />
+      <SkillsSection  />
       <ProjectsSection />
       <ContactSection />
       <Footer />

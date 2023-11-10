@@ -1,39 +1,50 @@
 import React, { useState } from 'react';
-import Hamburger from 'hamburger-react'; // Import Hamburger component
+import { Link, animateScroll as scroll } from 'react-scroll'; // Import Link and scroll from react-scroll
+import Hamburger from 'hamburger-react';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
+  const scrollToTop = () => {
+    scroll.scrollToTop();
   };
 
   return (
     <nav className={`navbar ${isOpen ? 'open' : ''}`}>
       <div className="nav_container">
-        <div className="logo">Portfolio</div>
+        <div className="logo" onClick={scrollToTop}>
+          Portfolio
+        </div>
 
-        <div className="menu-icon" onClick={toggleMenu}>
-          <Hamburger // Use Hamburger component
-            toggled={isOpen}
-            toggle={setIsOpen}
-          />
+        <div className="menu-icon">
+          <Hamburger toggled={isOpen} toggle={setIsOpen} />
         </div>
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
+          {/* Use Link instead of a for smooth scrolling */}
           <li>
-            <a href="#home">Home</a>
+            <Link to="header" smooth={true} duration={500}>
+              Home
+            </Link>
           </li>
           <li>
-            <a href="#about">About</a>
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <Link to="skill" smooth={true} duration={500}>
+              Skills
+            </Link>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <Link to="projects-section" smooth={true} duration={500}>
+              Projects
+            </Link>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
           </li>
         </ul>
       </div>
