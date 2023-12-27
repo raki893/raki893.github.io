@@ -14,8 +14,18 @@
   font-weight: bold;
   color: $theme-color; /* Change to your preferred color */
   text-decoration: none;
-}
 
+  background: linear-gradient(to right, rgb(228 7 191), #cd5252 40%, #100bb8);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 4s linear infinite;
+}
+@keyframes gradient {
+  0% {background-position: 0% 75%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 70%;}
+}
 /* Hamburger menu icon */
 .menu-icon  {
   cursor: pointer;
