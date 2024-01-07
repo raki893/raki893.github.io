@@ -6,6 +6,7 @@ const ProjectsSection = () => {
     <div className="projects-section">
       <h3>Projects</h3>
       <h5>Recent Projects With Live Demo Link</h5>
+      <hr className="hr_styled"/>
       <div className="project-cards">
         <ProjectCard
           title="React Weather App"

@@ -28,7 +28,6 @@
 }
 /* Hamburger menu icon */
 .menu-icon  {
-  cursor: pointer;
   font-size: 1.5rem;
   color: $theme-color;
   display: none; /* Hidden by default for larger screens */
@@ -40,6 +39,7 @@
   gap: 30px;
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 
 .nav-links li {

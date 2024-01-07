@@ -5,6 +5,7 @@ const ContactSection = () => {
     <div className='contact'>
       <h3>Contact</h3>
       <h5>Ways To Connect With Me</h5>
+      <hr className="hr_styled"/>
       <div className='contact-section'>
         <a className='contact-links' href="https://www.linkedin.com/in/rakibulislam893/" target="_blank" rel="noopener noreferrer">
           <div className='contact-svg'>

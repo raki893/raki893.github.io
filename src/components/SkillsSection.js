@@ -6,6 +6,7 @@ const SkillsSection = () => {
     <div className='skill'>
       <h3>Skills</h3>
       <h5>Technologies I Have Been Using</h5>
+      <hr className="hr_styled"/>
       <div className='skill-icons'>
         <div className="svg_item">
           <svg
