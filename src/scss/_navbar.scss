@@ -97,21 +97,17 @@
   top: 70px; /* Adjust as needed */
   left: 0;
   right: 0;
-  background-color: rgba(6, 5, 102, 0.9); /* Adjust the background color as needed */
+  background-color: rgb(242, 242, 255); /* Adjust the background color as needed */
   text-align: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.nav-links.open-transition {
+  transition: all 0.3s ease-in-out;
+}
+
 .nav-links.open li {
   margin: 15px 0;
-  a {
-    color: white;
-    transition: color 0.3s ease;
-
-    &:hover {
-      color: red;
-    }
-  }
 }
 
 /* Media query for mobile view */
@@ -122,5 +118,6 @@
 
   .nav-links {
     display: none; /* Hide navigation links */
+    gap: 0px;
   }
 }
