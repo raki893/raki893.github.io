@@ -15,6 +15,12 @@ const ProjectsSection = () => {
           githubLink="https://github.com/raki893/weather-react-app"
         />
         <ProjectCard
+          title="Lorem Website"
+          image={require('../images/project_screenshot/lorem.png')}
+          liveDemoLink="https://raki893.github.io/lorem/"
+          githubLink="https://github.com/raki893/lorem"
+        />
+        <ProjectCard
           title="Old Portfolio"
           image={require('../images/project_screenshot/old.png')}
           liveDemoLink="https://raki893.github.io/weather-react-app/"
