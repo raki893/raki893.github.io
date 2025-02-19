@@ -24,7 +24,7 @@ List the technologies and tools used in your projects, such as:
 
 If you have any questions or would like to discuss collaboration opportunities, feel free to reach out to me:
 
-- Email: raki893@gmail.com
+- Email: islam.rakibul.cse@gmail.com
 - LinkedIn: [Md Rakibul Islam](https://www.linkedin.com/in/rakibulislam893/)
 
 I am open to feedback and suggestions. If you find any issues with the projects or have ideas for improvement, please don't hesitate to create an issue or submit a pull request.
