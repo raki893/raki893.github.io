@@ -39,10 +39,10 @@ const ProjectsSection = () => {
           githubLink="https://github.com/raki893/charitable-organization/"
         />
         <ProjectCard
-          title="Fashion Hut"
-          image={require('../images/project_screenshot/fashion.png')}
-          liveDemoLink="https://raki893.github.io/fashion-hut/"
-          githubLink="https://github.com/raki893/fashion-hut/"
+          title="Calculator"
+          image={require('../images/project_screenshot/calculator.png')}
+          liveDemoLink="https://raki893.github.io/Calculator/"
+          githubLink="https://github.com/raki893/Calculator"
         />
         
       </div>
