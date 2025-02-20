@@ -13,8 +13,8 @@ const Header = () => {
           <h1>Hi, I am Rakibul Islam</h1>
           <h3>Frontend Developer</h3>
           <div className="cv-resume">
-                <a className="btn-cv-resume" href="https://drive.google.com/file/d/1d5wD8qSLN2OpivxNqOrcNDVpPQLEeFWK/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
-            </div>
+            <a className="btn-cv-resume" href="https://drive.google.com/file/d/1RtfQ_gOof1ShIZ3VCU0ouJ-4aSL4WOtY/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+          </div>
         </div>
       </div>
     </div>
