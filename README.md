@@ -8,7 +8,8 @@ To get a local copy of the projects up and running, follow these steps:
 
 1. Clone this repository: `git clone https://github.com/raki893/raki893.github.io.git`
 2. Navigate to the project directory: `cd project-directory`
-3. Follow the instructions specific to each project in their respective README files.
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
 
 ## Technologies Used
 
@@ -18,6 +19,8 @@ List the technologies and tools used in your projects, such as:
 - CSS
 - JavaScript
 - React
+- Sass
+- Webpack
 - etc.
 
 ## Contact Me
