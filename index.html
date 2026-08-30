@@ -96,7 +96,79 @@
         <h2>Technical capabilities</h2>
       </div>
 
-      <div id="skillsGrid" class="skill-grid" aria-live="polite"></div>
+      <div class="skill-grid">
+        <article class="card skill-card">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+          </div>
+          <h3>OS Support</h3>
+          <ul>
+            <li>Windows 10/11 and Windows Server 2019/2022/2025</li>
+            <li>macOS and Linux (Ubuntu, Debian)</li>
+            <li>Installation, CLI administration, and incident resolution</li>
+          </ul>
+        </article>
+
+        <article class="card skill-card">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M16 19a4 4 0 0 0-8 0"/><circle cx="12" cy="7" r="3.5"/><path d="M4 19c1.5-2 3.5-3 8-3s6.5 1 8 3"/></svg>
+          </div>
+          <h3>Identity &amp; Access</h3>
+          <ul>
+            <li>Active Directory, GPOs, user/group provisioning</li>
+            <li>Okta SSO, Google Workspace, Microsoft 365</li>
+            <li>Azure AD / Entra ID administration</li>
+          </ul>
+        </article>
+
+        <article class="card skill-card">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18"/><circle cx="12" cy="12" r="6"/><path d="M7 7l10 10M17 7L7 17"/></svg>
+          </div>
+          <h3>Networking &amp; Hardware</h3>
+          <ul>
+            <li>LAN, WAN, WiFi troubleshooting</li>
+            <li>TCP/IP, DNS, DHCP, VLANs, subnetting</li>
+            <li>Router/switch support, Wireshark, printer &amp; AV peripherals</li>
+          </ul>
+        </article>
+
+        <article class="card skill-card">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M8 18v2m8-2v2M2 10h20"/></svg>
+          </div>
+          <h3>MDM &amp; Deployment</h3>
+          <ul>
+            <li>Microsoft Intune and Google MDM</li>
+            <li>Desktop application deployment</li>
+            <li>Remote support tools and silent installers via PowerShell</li>
+          </ul>
+        </article>
+
+        <article class="card skill-card">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M7 4h10l4 4v12a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/><path d="M9 9h6M9 13h6M9 17h4"/></svg>
+          </div>
+          <h3>ITSM &amp; Operations</h3>
+          <ul>
+            <li>Ticketing systems, Jira workflows</li>
+            <li>ITIL-aligned incident and request handling</li>
+            <li>Technical documentation and knowledge base maintenance</li>
+          </ul>
+        </article>
+
+        <article class="card skill-card">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M5 19V7a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v12"/><path d="M8 10h8M8 14h8M9 19l3-3 3 3"/></svg>
+          </div>
+          <h3>Virtualization &amp; Automation</h3>
+          <ul>
+            <li>Proxmox VE, VirtualBox, pfSense firewalls</li>
+            <li>PowerShell, Bash, Python, Git/GitHub</li>
+            <li>Network segmentation and infrastructure lab design</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
     <section id="experience" class="section reveal">
@@ -105,7 +177,29 @@
         <h2>Career highlights</h2>
       </div>
 
-      <div id="experienceTimeline" class="timeline" aria-live="polite"></div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <h3>Freelance IT Support Technician</h3>
+          <div class="timeline-meta">Tangail, Bangladesh • Feb 2018 – Jul 2021</div>
+          <ul>
+            <li>Configured, installed, and maintained computer and network equipment for local workstation setups and moves/adds/changes.</li>
+            <li>Troubleshot LAN, WAN, WiFi, and peripheral issues across Windows, macOS, and Linux environments.</li>
+            <li>Created and managed user accounts, security groups, and access permissions in Active Directory, Google Workspace, and Microsoft 365.</li>
+            <li>Deployed desktop applications and documented troubleshooting steps in Jira-based workflows.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <h3>Deutsche Post InHaus Services GmbH</h3>
+          <div class="timeline-meta">Koblenz, Germany • Mar 2022 – Present</div>
+          <ul>
+            <li>Operate and monitor high-volume automated letter sorting systems in a structured enterprise environment.</li>
+            <li>Maintain operational accuracy, workflow efficiency, and adherence to quality and safety standards during mail processing.</li>
+            <li>Work in compliance with workplace safety, data protection, and internal confidentiality requirements.</li>
+            <li>Collaborate in a fast-paced German-speaking environment with strong process discipline and accountability.</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
     <section id="projects" class="section reveal">
@@ -114,7 +208,48 @@
         <h2>Featured work</h2>
       </div>
 
-      <div id="projectsGrid" class="project-grid" aria-live="polite"></div>
+      <div class="project-grid">
+        <article class="card project-card">
+          <h3>Enterprise IT Lab</h3>
+          <p>
+            Production-grade enterprise virtualization and network isolation built on bare-metal hypervisor technology. A segmented enterprise lab for testing identity, endpoint management, firewall policy, and disaster recovery on a single Proxmox host.
+          </p>
+          <div class="tag-list">
+            <span class="tag">Proxmox VE</span>
+            <span class="tag">pfSense</span>
+            <span class="tag">AD DS</span>
+          </div>
+          <a class="project-link" href="https://github.com/raki893/Enterprise-IT-Lab" target="_blank" rel="noopener">GitHub link →</a>
+        </article>
+
+        <article class="card project-card">
+          <h3>Active Directory Home Lab Setup (VirtualBox)</h3>
+          <p>
+            Built a functional Active Directory domain controller and Windows client environment in VirtualBox to demonstrate real-world network configuration, server administration, user management, and virtualization skills.
+          </p>
+          <div class="project-meta">Started: Jul 2025</div>
+          <div class="tag-list">
+            <span class="tag">Active Directory</span>
+            <span class="tag">VirtualBox</span>
+            <span class="tag">Windows Server</span>
+          </div>
+          <a class="project-link" href="https://github.com/raki893/VirtualBox-Active-Directory-Lab" target="_blank" rel="noopener">GitHub link →</a>
+        </article>
+
+        <article class="card project-card">
+          <h3>Small Office Network (Cisco Packet Tracer)</h3>
+          <p>
+            Designed a small office network model with wired and wireless devices, DHCP configuration, and a hierarchical LAN setup to simulate business connectivity and structured network planning.
+          </p>
+          <div class="project-meta">Started: Jun 2025</div>
+          <div class="tag-list">
+            <span class="tag">Cisco Packet Tracer</span>
+            <span class="tag">DHCP</span>
+            <span class="tag">LAN Design</span>
+          </div>
+          <a class="project-link" href="https://github.com/raki893/office-network-pt" target="_blank" rel="noopener">GitHub link →</a>
+        </article>
+      </div>
     </section>
 
     <section id="education" class="section reveal">
@@ -146,7 +281,168 @@
         <h2>Professional credentials</h2>
       </div>
 
-      <div id="certificateGrid" class="certificate-grid" aria-live="polite"></div>
+      <div class="certificate-grid">
+        <article class="certificate-card">
+          <div class="certificate-topbar">
+            <span class="provider-pill">Cisco</span>
+            <span class="verified-pill">Verified</span>
+          </div>
+          <button class="certificate-preview" type="button" aria-label="Open IT Support Specialist Career Path certificate">
+            <img src="assets/certificates/previews/IT_Support_Specialist_Career_Path_certificate.png" alt="IT Support Specialist Career Path certificate preview" />
+            <span class="certificate-zoom">Full view</span>
+          </button>
+          <div class="certificate-body">
+            <div class="meta-row">
+              <span class="meta-label">Credential</span>
+              <span class="meta-badge">Career Path</span>
+            </div>
+            <h3>IT Support Specialist Career Path</h3>
+            <p>Cisco Networking Academy</p>
+            <div class="certificate-actions">
+              <a href="https://www.credly.com/badges/3a4ab8cd-a255-4bc1-aa10-267f62cb6040" target="_blank" rel="noopener">Verify</a>
+              <a href="assets/certificates/docs/IT_Support_Specialist_Career_Path_certificate_islam-rakibul-cse-gmail-com_30f0545e-2b22-477a-8ddc-3dbcb6a56962.pdf" target="_blank" rel="noopener">Open</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-topbar">
+            <span class="provider-pill">Cisco</span>
+            <span class="verified-pill">Verified</span>
+          </div>
+          <button class="certificate-preview" type="button" aria-label="Open Operating Systems Support certificate">
+            <img src="assets/certificates/previews/Operating_Systems_Support.png" alt="Operating Systems Support certificate preview" />
+            <span class="certificate-zoom">Full view</span>
+          </button>
+          <div class="certificate-body">
+            <div class="meta-row">
+              <span class="meta-label">Credential</span>
+              <span class="meta-badge">Systems</span>
+            </div>
+            <h3>Operating Systems Support</h3>
+            <p>Cisco Networking Academy</p>
+            <div class="certificate-actions">
+              <a href="https://www.credly.com/badges/ece5fdd0-2ef1-42e4-abf2-2094faf52e61" target="_blank" rel="noopener">Verify</a>
+              <a href="assets/certificates/docs/Operating_Systems_Support_certificate_islam-rakibul-cse-gmail-com_69c8d551-297a-4fa9-9845-afb451d236d9%20(1).pdf" target="_blank" rel="noopener">Open</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-topbar">
+            <span class="provider-pill">Cisco</span>
+            <span class="verified-pill">Verified</span>
+          </div>
+          <button class="certificate-preview" type="button" aria-label="Open Networking Basics certificate">
+            <img src="assets/certificates/previews/Networking_Basics.png" alt="Networking Basics certificate preview" />
+            <span class="certificate-zoom">Full view</span>
+          </button>
+          <div class="certificate-body">
+            <div class="meta-row">
+              <span class="meta-label">Credential</span>
+              <span class="meta-badge">Networking</span>
+            </div>
+            <h3>Networking Basics</h3>
+            <p>Cisco Networking Academy</p>
+            <div class="certificate-actions">
+              <a href="https://www.credly.com/badges/f6e2ca12-23a7-4492-ada7-5f94da07f46f" target="_blank" rel="noopener">Verify</a>
+              <a href="assets/certificates/docs/Networking_Basics_certificate_islam-rakibul-cse-gmail-com_7cc71508-7a64-47cc-9e31-fc6e73e7fc2e%20(1).pdf" target="_blank" rel="noopener">Open</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-topbar">
+            <span class="provider-pill">Cisco</span>
+            <span class="verified-pill">Verified</span>
+          </div>
+          <button class="certificate-preview" type="button" aria-label="Open IT Customer Support Basics certificate">
+            <img src="assets/certificates/previews/IT_Customer_Support_Basics.png" alt="IT Customer Support Basics certificate preview" />
+            <span class="certificate-zoom">Full view</span>
+          </button>
+          <div class="certificate-body">
+            <div class="meta-row">
+              <span class="meta-label">Credential</span>
+              <span class="meta-badge">Support</span>
+            </div>
+            <h3>IT Customer Support Basics</h3>
+            <p>Cisco Networking Academy</p>
+            <div class="certificate-actions">
+              <a href="https://www.credly.com/badges/510251a8-da3c-4b70-bd40-0a2869236142" target="_blank" rel="noopener">Verify</a>
+              <a href="assets/certificates/docs/IT_Customer_Support_Basics_certificate_islam-rakibul-cse-gmail-com_7817146a-b68a-4589-a8b2-e5d00786cb44%20(1).pdf" target="_blank" rel="noopener">Open</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-topbar">
+            <span class="provider-pill">IBM</span>
+            <span class="verified-pill">Verified</span>
+          </div>
+          <button class="certificate-preview" type="button" aria-label="Open Information Technology Fundamentals certificate">
+            <img src="assets/certificates/previews/Information Technology Fundamentals_IBM.png" alt="Information Technology Fundamentals certificate preview" />
+            <span class="certificate-zoom">Full view</span>
+          </button>
+          <div class="certificate-body">
+            <div class="meta-row">
+              <span class="meta-label">Credential</span>
+              <span class="meta-badge">IT Fundamentals</span>
+            </div>
+            <h3>Information Technology Fundamentals</h3>
+            <p>IBM</p>
+            <div class="certificate-actions">
+              <a href="https://www.credly.com/badges/818f9ee9-212a-4f39-af4f-3ced7b89f547" target="_blank" rel="noopener">Verify</a>
+              <a href="assets/certificates/docs/Information Technology Fundamentals_IBM.pdf" target="_blank" rel="noopener">Open</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-topbar">
+            <span class="provider-pill">IBM</span>
+            <span class="verified-pill">Verified</span>
+          </div>
+          <button class="certificate-preview" type="button" aria-label="Open Cybersecurity Fundamentals certificate">
+            <img src="assets/certificates/previews/Cybersecurity Fundamentals_IBM.png" alt="Cybersecurity Fundamentals certificate preview" />
+            <span class="certificate-zoom">Full view</span>
+          </button>
+          <div class="certificate-body">
+            <div class="meta-row">
+              <span class="meta-label">Credential</span>
+              <span class="meta-badge">Security</span>
+            </div>
+            <h3>Cybersecurity Fundamentals</h3>
+            <p>IBM</p>
+            <div class="certificate-actions">
+              <a href="https://www.credly.com/badges/f4d1a750-8af4-4dde-b4cb-3d68918a6bfd" target="_blank" rel="noopener">Verify</a>
+              <a href="assets/certificates/docs/Cybersecurity Fundamentals_IBM.pdf" target="_blank" rel="noopener">Open</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-topbar">
+            <span class="provider-pill">TELC</span>
+            <span class="verified-pill">Verified</span>
+          </div>
+          <button class="certificate-preview" type="button" aria-label="Open TELC German B1 certificate">
+            <img src="assets/certificates/previews/telc Deutsch B1.png" alt="TELC German B1 certificate preview" />
+            <span class="certificate-zoom">Full view</span>
+          </button>
+          <div class="certificate-body">
+            <div class="meta-row">
+              <span class="meta-label">Credential</span>
+              <span class="meta-badge">Language</span>
+            </div>
+            <h3>TELC Deutsch B1</h3>
+            <p>German language proficiency certificate</p>
+            <div class="certificate-actions">
+              <a href="https://results.telc.net/vb?credential=telc-upwC73l" target="_blank" rel="noopener">Verify</a>
+              <a href="assets/certificates/docs/telc Deutsch B1_Md-Rakibul-Islam-C73l.pdf" target="_blank" rel="noopener">Open</a>
+            </div>
+          </div>
+        </article>
+      </div>
     </section>
 
     <section id="contact" class="section reveal">
